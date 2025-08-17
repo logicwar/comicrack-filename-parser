@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config overwrite="true" strip_extension="true" normalize_underscores="true" strip_leading_zeros="false">
+  <Patterns>
+    <Pattern>^(?P&lt;number&gt;\d{1,6})\s*-\s*(?P&lt;title&gt;.+)?$</Pattern>
+    <Pattern>^(?P&lt;number&gt;\d{1,6})\s*-\s*(?P&lt;series&gt;[^-]+?)(?:\s*-\s*(?P&lt;title&gt;.+))?$</Pattern>
+    <Pattern>^(?P&lt;number&gt;\d{1,6})\s*-\s*(?P&lt;series&gt;.+?)\s*\((?P&lt;year&gt;\d{4})\)$</Pattern>
+    <Pattern>^(?P&lt;series&gt;.+?)\s+\((?P&lt;volume&gt;\d{4})\)\s*#(?P&lt;number&gt;[\dA-Za-z\.]+)(?:\s*-\s*(?P&lt;title&gt;.*))?$</Pattern>
+  </Patterns>
+</Config>
